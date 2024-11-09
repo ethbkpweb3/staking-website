@@ -1,4 +1,6 @@
-import{s as t,L as o,a as r,j as e}from"./index-IT1gKaF9.js";import{m as s}from"./motion-_fLkK2fy.js";const d=t.div`
+import { s as t, L as o, a as r, j as e } from "./index-IT1gKaF9.js";
+import { m as s } from "./motion-_fLkK2fy.js";
+const d = t.div`
   display: flex;
   background: linear-gradient(
       180deg,
@@ -13,7 +15,8 @@ import{s as t,L as o,a as r,j as e}from"./index-IT1gKaF9.js";import{m as s}from"
   overflow: hidden;
   padding: 50px 24px 50px 24px;
   min-height: 100vh;
-`,x=t.div`
+`,
+  x = t.div`
   display: flex;
   flex-direction: column;
   max-width: 1440px;
@@ -21,7 +24,8 @@ import{s as t,L as o,a as r,j as e}from"./index-IT1gKaF9.js";import{m as s}from"
   margin-left: auto;
   margin-right: auto;
   align-items: center;
-`,c=t.div`
+`,
+  c = t.div`
   display: flex;
   height: 100%;
   width: 100%;
@@ -32,14 +36,17 @@ import{s as t,L as o,a as r,j as e}from"./index-IT1gKaF9.js";import{m as s}from"
   @media screen and (max-width: 768px) {
     margin-top: 25px;
   }
-`,p=t.img`
+`,
+  p = t.img`
   width: 100%;
   max-width: 500px;
   height: auto;
-`;t.div`
+`;
+t.div`
   display: flex;
   flex-direction: column;
-`;const l=t.h1`
+`;
+const l = t.h1`
   font-family: "Bebas Neue", cursive;
   font-size: 38px;
   color: #fcefde;
@@ -57,7 +64,8 @@ import{s as t,L as o,a as r,j as e}from"./index-IT1gKaF9.js";import{m as s}from"
     font-size: 26px;
     text-align: center;
   }
-`,m=t.p`
+`,
+  m = t.p`
   font-size: 18px;
   color: #fcefde;
   font-weight: 400;
@@ -74,7 +82,8 @@ import{s as t,L as o,a as r,j as e}from"./index-IT1gKaF9.js";import{m as s}from"
   @media screen and (max-width: 480px) {
     font-size: 14px;
   }
-`,g=t.div`
+`,
+  g = t.div`
   display: flex;
   flex-direction: row;
   margin-top: 25px;
@@ -87,12 +96,13 @@ import{s as t,L as o,a as r,j as e}from"./index-IT1gKaF9.js";import{m as s}from"
     flex-direction: column;
     margin-top: 10px;
   }
-`,n=t(o)`
+`,
+  n = t(o)`
   display: flex;
   flex-direction: column;
   border: 2px solid rgba(252, 239, 222, 0.3);
   border-radius: 10px;
-  background: ${({bg:i})=>`url(${i})`};
+  background: ${({ bg: i }) => `url(${i})`};
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -120,7 +130,8 @@ import{s as t,L as o,a as r,j as e}from"./index-IT1gKaF9.js";import{m as s}from"
     filter: grayscale(0);
     box-shadow: rgba(0, 0, 0, 0.5) 0px 10px 20px;
   }
-`,a=t.p`
+`,
+  a = t.p`
   font-size: 36px;
   color: #fcefde;
   font-weight: bold;
@@ -137,11 +148,46 @@ import{s as t,L as o,a as r,j as e}from"./index-IT1gKaF9.js";import{m as s}from"
   @media screen and (max-width: 480px) {
     font-size: 24px;
   }
-`;t.img`
+`;
+t.img`
   object-fit: cover;
   max-width: 300px;
   max-height: 300px;
   width: 100%;
   height: 100%;
   margin-top: 25px;
-`;const h=()=>{const{t:i}=r();return e.jsx(d,{children:e.jsxs(x,{children:[e.jsx(p,{alt:"logo",src:"/images/main/logo.webp"}),e.jsx(l,{children:i("selector.welcome")}),e.jsxs(c,{children:[e.jsx(m,{children:i("selector.desc")}),e.jsxs(g,{children:[e.jsx(n,{to:"/coin",bg:"/images/selector/coin-bg.webp",children:e.jsx(a,{children:i("selector.coin")})}),e.jsx(n,{to:"/nft",bg:"/images/selector/nft-bg.webp",children:e.jsx(a,{children:i("selector.passport")})})]})]})]})})},u=()=>e.jsx(s.div,{initial:{opacity:0},animate:{opacity:1},exit:{opacity:0},children:e.jsx(h,{})});export{u as default};
+`;
+const h = () => {
+    const { t: i } = r();
+    return e.jsx(d, {
+      children: e.jsxs(x, {
+        children: [
+          e.jsx(p, { alt: "logo", src: "/images/main/logo.webp" }),
+          e.jsx(l, { children: i("selector.welcome") }),
+          e.jsxs(c, {
+            children: [
+              e.jsx(m, { children: i("selector.desc") }),
+              e.jsxs(g, {
+                children: [
+                  e.jsx(n, {
+                    to: "/coin",
+                    bg: "/images/selector/coin-bg.webp",
+                    children: e.jsx(a, { children: i("Stake Token now") }),
+                  }),
+               
+                ],
+              }),
+            ],
+          }),
+        ],
+      }),
+    });
+  },
+  u = () =>
+    e.jsx(s.div, {
+      initial: { opacity: 0 },
+      animate: { opacity: 1 },
+      exit: { opacity: 0 },
+      children: e.jsx(h, {}),
+    });
+export { u as default };
