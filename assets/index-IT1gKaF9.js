@@ -20559,7 +20559,7 @@ const lO = M2({
     testnet: !0,
   }),
   jx = M2({
-    id: 8453,
+    id: 1,
     network: "homestead",
     name: "Ethereum",
     nativeCurrency: {
@@ -20569,28 +20569,28 @@ const lO = M2({
     },
     rpcUrls: {
       alchemy: {
-        http: ["https://mainnet.base.org"],
-        webSocket: ["wss://mainnet.base.org"],
+        http: ["https://eth-mainnet.g.alchemy.com/v2"],
+        webSocket: ["wss://eth-mainnet.g.alchemy.com/v2"],
       },
       infura: {
-        http: ["https://mainnet.base.org"],
-        webSocket: ["wss://mainnet.base.org"],
+        http: ["https://mainnet.infura.io/v3"],
+        webSocket: ["wss://mainnet.infura.io/ws/v3"],
       },
       default: {
-        http: ["https://mainnet.base.org"],
+        http: ["https://cloudflare-eth.com"],
       },
       public: {
-        http: ["mainnet.base.org"],
+        http: ["https://cloudflare-eth.com"],
       },
     },
     blockExplorers: {
       etherscan: {
-        name: "Basescan",
-        url: "https://basescan.org",
+        name: "Etherscan",
+        url: "https://etherscan.io",
       },
       default: {
         name: "Etherscan",
-        url: "https://basescan.org",
+        url: "https://etherscan.io",
       },
     },
     contracts: {
