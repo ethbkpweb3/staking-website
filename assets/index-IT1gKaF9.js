@@ -39144,7 +39144,7 @@ const iL = q.nav`
       image: "/images/flags/vietnam.webp",
     },
   },
-  vL = 1,
+  vL = 8453,
   wL = ["diamond", "gold", "silver", "bronze"],
   bL = ["#b9f2ff", "#FFD700", "#C0C0C0", "#CD7F32"],
   xL = "https://nftstorage.link/ipfs",
