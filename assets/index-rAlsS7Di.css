@@ -1,0 +1,117 @@
+.spinner {
+    margin: 100px auto 0;
+    width: 70px;
+    text-align: center
+}
+
+.spinner>div {
+    width: 18px;
+    height: 18px;
+    background-color: #fff;
+    border-radius: 100%;
+    display: inline-block;
+    -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+    animation: sk-bouncedelay 1.4s infinite ease-in-out both
+}
+
+.spinner .bounce1 {
+    -webkit-animation-delay: -.32s;
+    animation-delay: -.32s
+}
+
+.spinner .bounce2 {
+    -webkit-animation-delay: -.16s;
+    animation-delay: -.16s
+}
+
+@-webkit-keyframes sk-bouncedelay {
+    0%,
+    80%,
+    to {
+        -webkit-transform: scale(0)
+    }
+    40% {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes sk-bouncedelay {
+    0%,
+    80%,
+    to {
+        -webkit-transform: scale(0);
+        transform: scale(0)
+    }
+    40% {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+    margin: 0;
+    padding: 0;
+    --fcc-background: #81451e;
+    --fcc-label-color: #81451e;
+    --fcc-separator-size: 4px;
+    --fcc-separator-color: #d9c7bb
+}
+
+body {
+    background: #053821;
+    overflow-x: hidden;
+    position: relative
+}
+
+ul.react-paginate {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none
+}
+
+ul.react-paginate li a {
+    padding: .1rem 1rem;
+    border: #81451e 1px solid;
+    cursor: pointer
+}
+
+ul.react-paginate li.previous a,
+ul.react-paginate li.next a,
+ul.react-paginate li.break a {
+    border-color: transparent
+}
+
+ul.react-paginate li.selected a {
+    background-color: #387636;
+    border-color: transparent;
+    color: #fff;
+    min-width: 32px
+}
+
+ul.react-paginate li.disabled a {
+    color: gray
+}
+
+ul.react-paginate li.disable,
+ul.react-paginate li.disabled a {
+    cursor: default
+}
+
+@media screen and (max-width: 768px) {
+    ul.react-paginate li a {
+        padding: .05rem .5rem;
+        border: #81451e 1px solid;
+        cursor: pointer
+    }
+}
+
+@media screen and (max-width: 480px) {
+    ul.react-paginate li a {
+        padding: .02rem .2rem;
+        border: #81451e 1px solid;
+        cursor: pointer
+    }
+}
