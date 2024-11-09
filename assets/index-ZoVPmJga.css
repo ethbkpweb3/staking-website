@@ -1,12 +1,8 @@
-.driver-active .driver-overlay,
-.driver-active * {
+.driver-active .driver-overlay,.driver-active * {
     pointer-events: none
 }
 
-.driver-active .driver-active-element,
-.driver-active .driver-active-element *,
-.driver-popover,
-.driver-popover * {
+.driver-active .driver-active-element,.driver-active .driver-active-element *,.driver-popover,.driver-popover * {
     pointer-events: auto
 }
 
@@ -14,6 +10,7 @@
     0% {
         opacity: 0
     }
+
     to {
         opacity: 1
     }
@@ -45,7 +42,7 @@
 }
 
 .driver-popover * {
-    font-family: Helvetica Neue, Inter, ui-sans-serif, "Apple Color Emoji", Helvetica, Arial, sans-serif
+    font-family: Helvetica Neue,Inter,ui-sans-serif,"Apple Color Emoji",Helvetica,Arial,sans-serif
 }
 
 .driver-popover-title {
@@ -54,8 +51,7 @@
     display: block;
     position: relative;
     line-height: 1.5;
-    zoom: 1;
-    margin: 0
+    zoom:1;margin: 0
 }
 
 .driver-popover-close-btn {
@@ -75,8 +71,7 @@
     transition-duration: .2s
 }
 
-.driver-popover-close-btn:hover,
-.driver-popover-close-btn:focus {
+.driver-popover-close-btn:hover,.driver-popover-close-btn:focus {
     color: #2d2d2d
 }
 
@@ -89,14 +84,12 @@
     font: 14px/normal sans-serif;
     line-height: 1.5;
     font-weight: 400;
-    zoom: 1
-}
+    zoom:1}
 
 .driver-popover-footer {
     margin-top: 15px;
     text-align: right;
-    zoom: 1;
-    display: flex;
+    zoom:1;display: flex;
     align-items: center;
     justify-content: space-between
 }
@@ -105,8 +98,7 @@
     font-size: 13px;
     font-weight: 400;
     color: #727272;
-    zoom: 1
-}
+    zoom:1}
 
 .driver-popover-footer button {
     all: unset;
@@ -120,8 +112,7 @@
     font: 12px/normal sans-serif;
     cursor: pointer;
     outline: 0;
-    zoom: 1;
-    line-height: 1.3;
+    zoom:1;line-height: 1.3;
     border: 1px solid #ccc;
     border-radius: 3px
 }
@@ -132,16 +123,14 @@
 }
 
 :not(body):has(>.driver-active-element) {
-    overflow: hidden !important
+    overflow: hidden!important
 }
 
-.driver-no-interaction,
-.driver-no-interaction * {
-    pointer-events: none !important
+.driver-no-interaction,.driver-no-interaction * {
+    pointer-events: none!important
 }
 
-.driver-popover-footer button:hover,
-.driver-popover-footer button:focus {
+.driver-popover-footer button:hover,.driver-popover-footer button:focus {
     background-color: #f7f7f7
 }
 
@@ -197,34 +186,28 @@
     display: none
 }
 
-.driver-popover-arrow-side-left.driver-popover-arrow-align-start,
-.driver-popover-arrow-side-right.driver-popover-arrow-align-start {
+.driver-popover-arrow-side-left.driver-popover-arrow-align-start,.driver-popover-arrow-side-right.driver-popover-arrow-align-start {
     top: 15px
 }
 
-.driver-popover-arrow-side-top.driver-popover-arrow-align-start,
-.driver-popover-arrow-side-bottom.driver-popover-arrow-align-start {
+.driver-popover-arrow-side-top.driver-popover-arrow-align-start,.driver-popover-arrow-side-bottom.driver-popover-arrow-align-start {
     left: 15px
 }
 
-.driver-popover-arrow-align-end.driver-popover-arrow-side-left,
-.driver-popover-arrow-align-end.driver-popover-arrow-side-right {
+.driver-popover-arrow-align-end.driver-popover-arrow-side-left,.driver-popover-arrow-align-end.driver-popover-arrow-side-right {
     bottom: 15px
 }
 
-.driver-popover-arrow-side-top.driver-popover-arrow-align-end,
-.driver-popover-arrow-side-bottom.driver-popover-arrow-align-end {
+.driver-popover-arrow-side-top.driver-popover-arrow-align-end,.driver-popover-arrow-side-bottom.driver-popover-arrow-align-end {
     right: 15px
 }
 
-.driver-popover-arrow-side-left.driver-popover-arrow-align-center,
-.driver-popover-arrow-side-right.driver-popover-arrow-align-center {
+.driver-popover-arrow-side-left.driver-popover-arrow-align-center,.driver-popover-arrow-side-right.driver-popover-arrow-align-center {
     top: 50%;
     margin-top: -5px
 }
 
-.driver-popover-arrow-side-top.driver-popover-arrow-align-center,
-.driver-popover-arrow-side-bottom.driver-popover-arrow-align-center {
+.driver-popover-arrow-side-top.driver-popover-arrow-align-center,.driver-popover-arrow-side-bottom.driver-popover-arrow-align-center {
     left: 50%;
     margin-left: -5px
 }
