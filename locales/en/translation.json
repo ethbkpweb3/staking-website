@@ -1,0 +1,315 @@
+{
+  "navbar": {
+    "connectText": "Connect Wallet",
+    "howItWorks": "How it Works",
+    "howToStake": "How to Stake",
+    "calculator": "Calculator"
+  },
+
+  "selector": {
+    "welcome": "Welcome to Staking Platform",
+    "desc": "Please select the type you want to stake",
+    "coin": "COIN (CHMPZ)",
+    "passport": "NFT PASSPORT"
+  },
+
+  "types": {
+    "diamond": "Diamond",
+    "gold": "Gold",
+    "silver": "Silver",
+    "bronze": "Bronze"
+  },
+
+  "hero": {
+    "header1": "STAKE TO EARN",
+    "header2": "Stake your CHMPZ and earn up to 40% APY!",
+    "desc": "Chimpzee introduces a new way to earn while saving the planet at the same time. Now you will be able to stake your CHMPZ and NFT Passports and manage them through this portal.",
+    "nftHeader": "Stake Your Passport",
+    "nftDesc": "Earn up to 20% APY staking your Chimpzee Passport",
+    "stakeButton": "Stake now",
+    "learnButton": "Learn more",
+    "buyP2B": "Buy CHMPZ",
+    "mintNft": "Mint Passport"
+  },
+
+  "stats": {
+    "stat1-coin": "Total CHMPZ Staked",
+    "stat1-nft": "Total PASSPORTS Staked",
+    "stat2": "Total CHMPZ Paid",
+    "stat3": "Total CHMPZ Available",
+    "stat4": "Total Stakers"
+  },
+
+  "howItWorks": {
+    "coin": {
+      "header": "HOW STAKING CHMPZ WORKS",
+      "smallHeader1": "Stake your CHMPZ and earn up to 40% Annual Percentage Yield (APY).",
+      "text1": "Get rewarded for holding your CHMPZ tokens!",
+      "text2": "Enjoy complete flexibility and control over your CHMPZ Tokens - Stake, Withdraw, Claim whenever you want it. <1>Learn more here.</1>",
+      "calcText": "To find out exactly what rewards you will receive, simply use our",
+      "calcButton": "Staking Calculator"
+    },
+    "nft": {
+      "header": "How to Stake Your Passport",
+      "smallHeader1": "text",
+      "text1": "It is easy. Once you have connected your wallet to the website select the type of passport you wish to stake and click on the \"stake\" button.",
+      "text2": "See a <1>detailed guide</1> here.",
+      "calcText": "Use our calculator to see the rewards you will earn",
+      "calcButton": "Staking Calculator",
+      "notice": "Staking APY follows the original pricing while new changes will be announced soon"
+    }
+  },
+
+  "table": {
+    "coin": {
+      "header1": "CHMPZ AMOUNT (FROM)",
+      "header2": "CHMPZ AMOUNT (TO)",
+      "header3": "APY"
+    },
+    "nft": {
+      "header1": "PASSPORT TYPE",
+      "header2": "PRICE APY BASED",
+      "header3": "APY"
+    }
+  },
+
+  "howToStake": {
+    "coin": {
+      "header": "Staking your CHMPZ tokens",
+      "step": "Step {{0}}",
+      "text1": "Please make sure you are on the Ethereum Network. If our system detects that your wallet is on another network it will alert you to change it.",
+      "text2": "Enter the amount you wish to stake or click on the MAX link to stake all of the CHMPZ tokens in your wallet. Then click on the “Stake Button”",
+      "text3": "Approve the spending cap request amount. Here you are approving the number of tokens you wish to stake. This is an “off-chain transaction which occurs before you have to confirm it on the blockchain and pay the gas fee.",
+      "text4": "After you approved the number of tokens you wish to stake, next you will have to confirm the transaction on the blockchain. Click on “Confirm” to process the transaction and pay the gas fee.",
+      "text5": "Once confirmed you will see your deposited CHMPZ for staking in the “Locked CHMPZ” section. After 5 days they will be moved to Current Staked and you will be able to unstake and claim your rewards at any time.",
+      "text6": "You can also track when your CHMPZ will be unlocked with our CHMPZ Locked timer."
+    },
+    "nft": {
+      "header": "Staking your Passports",
+      "step": "Step {{0}}",
+      "text1": "Connect your wallet to the website, click on the type of Passport you want to stake (Diamond, Gold, Silver, Bronze) and then click on the stake button.",
+      "text2": "Click on the NFT Passport you wish to stake and then click on the \"Continue to Stake\" button. (You can select more than 1 NFT Passport)",
+      "text3": "Confirm the information is correct then click on the Stake Button. (Note: you can click on the \"Change Selected\" link to change your selected passport)",
+      "text4": "Pay the gas fee and confirm the stake transaction in your wallet popup.",
+      "text5": "See popup that says \"Staking\" is pending.",
+      "text6": "See a popup that says \"Stake Successful\"",
+      "text7": "See your Staked Passports in the \"Wallet Info\" section of the Dashboard.",
+      "text8": "You can click on the \"All Passports\" button and then click on the type of passport at the top of the popup to see your staked passports."
+    }
+  },
+
+  "stake": {
+    "walletInfo": "Wallet Info",
+    "walletInfoText": "Staked CHMPZ",
+    "walletInfoText2": "Staked Passports",
+    "stakeWithdraw": "Stake & Withdraw",
+    "stakeWithdrawText": "Enter amount to stake or unstake",
+    "stakeWithdrawText2": "Select passport type to stake or unstake",
+    "claim": "Claim",
+    "claimText": "Receive your earned tokens",
+    "unclaimedText": "Unclaimed rewards:",
+    "totalUnclaimedText": "Total unclaimed rewards:",
+    "stake": "Stake",
+    "withdraw": "Withdraw",
+    "currentStaked": "Current staked:",
+    "lifetimeRewards": "Lifetime rewards:",
+    "refresh": "Refresh",
+    "information": "Information",
+    "connectedWallet": "Connected wallet:",
+    "owned": "Owned CHMPZ:",
+    "nftSwitch": "Switch to NFT staking",
+    "coinSwitch": "Switch to coin staking",
+    "locked": "LOCKED COINS",
+    "lockedText": "Check your locked coins",
+    "lockedShow": "Current locked:",
+    "diamondRewards": "Diamond rewards: ",
+    "goldRewards": "Gold rewards: ",
+    "silverRewards": "Silver rewards: ",
+    "bronzeRewards": "Bronze rewards: ",
+    "stakedDiamond": "Staked diamond amount:",
+    "stakedGold": "Staked gold amount:",
+    "stakedSilver": "Staked silver amount:",
+    "stakedBronze": "Staked bronze amount:",
+    "totalStakedPassports": "Total staked passports: ",
+    "allNftsButton": "All Passports",
+    "messages": {
+      "switchNetwork": "Please Switch to Ethereum Mainnet",
+      "switchNetwork2": "Switch to Ethereum Mainnet",
+      "refreshed": "Rewards refreshed!",
+      "approveSuccess": "Approval was successfull! Please check the second transaction",
+      "approveSuccessNft": "Approval was successfull!",
+      "approveError": "Error while getting approval",
+      "stakeSuccess": "Successfully staked!",
+      "stakeError": "Something went wrong while staking...",
+      "withdrawSuccess": "Successfully withdrawn!",
+      "withdrawError": "Something went wrong while withdrawing...",
+      "claimSucess": "Successfully claimed rewards!",
+      "claimError": "Something went wrong while claiming rewards...",
+      "validValue": "Please enter a valid value",
+      "minStakeError": "Minimum stake amount not reached! (min: {{0}} CHMPZ)",
+      "notEnough": "You dont have enough CHMPZ to stake...",
+      "minWithdrawError": "Minimum withdrawal amount not reached! (min: {{0}} CHMPZ)",
+      "insufficientWithdraw": "insufficient withdrawal amount",
+      "notEnoughClaim": "Not enough reward coins to claim...",
+      "noRewards": "No rewards available to claim...",
+      "noTokensToWithdraw": "No tokens to withdraw...",
+      "checkWallet": "Please check your wallet",
+      "stakeSuccessNft": "Stake was successfull!",
+      "stakeErrorNft": "Something went wrong while staking..."
+    },
+    "modal": {
+      "createNew": "Create new stake",
+      "continue": "Continue",
+      "wait": "Please wait for transaction to complete",
+      "staking": "Staking",
+      "allowanceFound": "ALLOWANCE PENDING",
+      "foundText": "<1>{{0}}</1> CHMPZ allowance is pending. Please click on continue to confirm the transaction and stake <1>{{0}}</1> CHMPZ. Click on \"Create New Stake\" to redo allowance with <2>{{1}}</2> CHMPZ and stake.",
+      "confirm": "Confirm",
+      "approveSuccess": "Approval successful",
+      "secondTransText": "First transaction was successful! Please confirm the second transaction to stake <1>{{0}}</1> CHMPZ"
+    },
+    "informationBox": {
+      "header1": "NFT Staking",
+      "desc1": "Switch to our NFT staking page to manage your staked passports.",
+      "header2": "Stake and Withdraw",
+      "desc2": "Stake your tokens or unstake \"withdraw\" your tokens.",
+      "header3": "CHMPZ token amount",
+      "desc3": "Enter the amount you want to stake or unstake and withdraw to your wallet.",
+      "header4": "Start Staking CHMPZ",
+      "desc4": "Click on the Stake button to start staking process.",
+      "header5": "Withdraw Tokens",
+      "desc5": "Click on withdraw to unstake your CHMPZ and send them back to your wallet.",
+      "header6": "Claim Earned CHMPZ",
+      "desc6": "Claim the amount of CHMPZ you earned.",
+      "header7": "Claim amount",
+      "desc7": "Enter the amount you wish to claim.",
+      "header8": "Refresh Claim",
+      "desc8": "Click on the button to refresh the claim total.",
+      "header9": "Claim",
+      "desc9": "Click on the \"Claim\" button to start the process to send your earned CHMPZ to your wallet.",
+      "finalHeader": "End of Guide",
+      "finalDesc": "Thanks for using the Chimpzee staking guide."
+    },
+    "informationBoxNft": {
+      "header1": "Wallet Info",
+      "desc1": "See amount of staked passports.",
+      "header2": "Passports Button",
+      "desc2": "See all the passports that you own and staked.",
+      "header3": "Stake & Withdraw",
+      "desc3": "This is where you stake or unstake your passport.",
+      "header4": "Passport Types",
+      "desc4": "Select your passport type to stake or unstake.",
+      "header5": "Stake Passport",
+      "desc5": "Click on this button to stake your passport.",
+      "header6": "Unstake your Passport",
+      "desc6": "Click this button to withdraw your passport from staking.",
+      "header7": "Claim Rewards",
+      "desc7": "See the rewards available to claim.",
+      "header8": "Rewards Breakdown",
+      "desc8": "See a breakdown of your rewards by passport.",
+      "header9": "Refresh Rewards",
+      "desc9": "Click this icon to refresh the numbers.",
+      "header10": "Claim Button",
+      "desc10": "Click this button to claim your rewards and send to your wallet.",
+      "finalHeader": "Passport Staking Guide Finished",
+      "finalDesc": "Thank you for using our guided tour."
+    },
+    "gallery": {
+      "header": "",
+      "select": "SELECT",
+      "deSelect": "DESELECT",
+      "selectAll": "Select all",
+      "deselectAll": "Deselect all",
+      "selectPassport": "Select {{0}} Passport(s)",
+      "notFound": "No passport found",
+      "search": "Search",
+      "oneOrMore": "Select one or more passports to continue",
+      "stake": "Continue to stake",
+      "withdraw": "Continue to withdraw",
+      "allPassports": "ALL PASSPORTS",
+      "staked": "STAKED"
+    },
+    "popup": {
+      "approving": "Approving",
+      "approve": "Approve",
+      "stakeHeader": "Stake",
+      "staking": "Staking",
+      "wait": "Please wait",
+      "continue": "Continue",
+      "stakeText": "You are ready to stake your <1>{{0}}</1> passports. Please check your selected ids and then press \"stake\" button to stake them.",
+      "stakeSelectedType": "Selected type: <1>{{0}}</1>",
+      "stakeSelectedIDS": "Selected IDS: <1>{{0}}</1>",
+      "stakeSelectedAmount": "Selected NFT amount: <1>{{0}}</1>",
+      "stakeChange": "Change selected",
+      "stakeButton": "Stake",
+      "stakeSuccess": "STAKE SUCCESSFUL",
+      "stakeSuccessText": "Stake is complete!",
+      "stakeCheckTrans": "Check transaction",
+      "stakeFailed": "STAKE FAILED",
+      "stakeFailedText": "STAKE failed! Please try again.",
+      "approvalHeader": "APPROVAL NEEDED",
+      "approvalText": "Approval is needed for allowing transfer of the <1>{{0}}</1> passports. Its a one time only transaction and future stake transactions will be allowed only on Chimpzee stake contract.",
+      "approveSuccessheader": "APPROVAL SUCCESSFUL",
+      "approveSuccessText": "Allowance is complete! To continue staking your <1>{{0}}</1> passports, please press \"Continue\".",
+      "approveFailedHeader": "APPROVAL FAILED",
+      "approveFailedText": "Allowance failed! Please click on \"Retry\" to try again.",
+      "retry": "Retry",
+      "withdrawing": "Withdrawing",
+      "withdrawHeader": "Withdraw",
+      "withdrawText": "You are ready to unstake your <1>{{0}}</1> passports. Please check your selected ids and then press \"withdraw\" button to unstake them.",
+      "withdrawButton": "Withdraw",
+      "withdrawSuccess": "UNSTAKED SUCCESSFULLY",
+      "withdrawSuccessText": "Withdraw is completed! Your selected passports are now unstaked",
+      "withdrawFailed": "WITHDRAW FAILED",
+      "withdrawFailedText": "Withdraw failed! Please try again.",
+      "claimHeader": "CLAIM",
+      "claimText": "All rewards will be transfered to your wallet.",
+      "claimButton": "Claim",
+      "claimSuccess": "CLAIMED SUCCESSFULLY",
+      "claimSuccessText": "Successfully claimed all rewards! Rewards are now transfered to your wallet.",
+      "claimFailed": "CLAIM FAILED",
+      "claimFailedText": "Claim failed! Please try again.",
+      "claiming": "Claiming"
+    }
+  },
+
+  "driver": {
+    "numbering": "{{current}} of {{total}}",
+    "next": "Next",
+    "prev": "Previous",
+    "done": "Done"
+  },
+
+  "calculator": {
+    "header": "CALCULATE YOUR REWARDS",
+    "desc": "Increment or decrement passport types of your choice to see rewards",
+    "descNft": "Enter the amount of passports you want to stake to see your cumulative earnings.",
+    "calculate": "Calculate",
+    "apy": "Your APY:",
+    "dayReward": "Rewards per Day:",
+    "weekReward": "Rewards per Week:",
+    "monthReward": "Rewards per Month:",
+    "yearReward": "Rewards per Year:"
+  },
+
+  "notFound": {
+    "header": "Page not Found!",
+    "desc": "The page you have been looking for is not found..."
+  },
+
+  "crash": {
+    "header": "Website Crashed!",
+    "desc": "Please update your browser or switch to a different one",
+    "text": "contact us at: contact@chimpzee.io"
+  },
+
+  "footer": {
+    "desc": "Cryptocurrency may be unregulated in your jurisdiction. The value of cryptocurrencies may go down as well as up. Profits may be subject to capital gains or other taxes applicable in your jurisdiction."
+  },
+
+  "unsecure": {
+    "header": "If you see this page, Webb App link you have clicked on is under Clickjacking security attack.",
+    "desc": "Please inform team with the reference of the application from where you clicked this link.",
+    "click": "Click <1>here</1> to access WebApp safely."
+  }
+}
