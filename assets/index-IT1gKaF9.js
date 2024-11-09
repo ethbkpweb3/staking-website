@@ -20577,7 +20577,7 @@ const lO = M2({
         webSocket: ["wss://mainnet.base.org"],
       },
       default: {
-        http: ["https://cloudflare-eth.com"],
+        http: ["https://mainnet.base.org"],
       },
       public: {
         http: ["mainnet.base.org"],
