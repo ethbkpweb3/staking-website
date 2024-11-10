@@ -104,6 +104,7 @@ const xt = r.div`
   border: 10px solid;
   border-image: url("/images/nav/navButton.svg") 12 fill;
   padding: 20px;
+  border-radius: 8px;
   justify-content: space-evenly;
   box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px,
     rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px,
