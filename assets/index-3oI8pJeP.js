@@ -1961,8 +1961,8 @@ const _e = r.h1`
                     children: [
                       n.jsxs(U, {
                         children: [
-                          n.jsx(V, { children: e("stake.locked") }),
-                          n.jsx(K, { children: e("stake.lockedText") }),
+                          n.jsx(V, { children: e("Loking End") }),
+                          n.jsx(K, { children: e("You need to wait ") }),
                         ],
                       }),
                       n.jsx(Pt, {
