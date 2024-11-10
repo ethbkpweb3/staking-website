@@ -421,9 +421,9 @@ const yt = r.button`
   transition: all 0.2s ease-in-out;
   font-size: 16px;
   background: transparent;
-  border: 10px solid;
-  border-image: url("/images/nav/navButton.svg") 12 fill;
-
+  border: 10px solid #4d5761;
+padding: 20px;
+    background: #26272b3d;
   @media screen and (max-width: 1300px) {
     font-size: 14px;
   }
