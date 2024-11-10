@@ -1685,7 +1685,7 @@ const _e = r.h1`
       Qe = () => {
         if (s.rewards <= 0) return u.error(e("stake.messages.noRewards"));
         if (s.rewards > t.rewardTokenBalance)
-          return u.error(e("stake.messages.notEnoughClaim"));
+          return u.error(e("No claim"));
         u.success(e("stake.messages.checkWallet"), { icon: "🪙" }),
           te == null || te();
       };
@@ -1740,7 +1740,7 @@ const _e = r.h1`
             n.jsx(we, {
               children: n.jsx(ke, {
                 onClick: () => (g == null ? void 0 : g(H.chainId)),
-                children: e("stake.messages.switchNetwork2"),
+                children: e("Switch Network"),
               }),
             }),
           !b &&
