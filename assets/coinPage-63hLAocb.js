@@ -333,24 +333,7 @@ const O = n.p`
                   src: "/images/hero/coin.webp",
                 }),
               }),
-              e.jsxs(U, {
-                children: [
-                  e.jsx(A, { children: t("hero.header2") }),
-                  e.jsx(O, { children: t("hero.desc") }),
-                  e.jsxs(V, {
-                    children: [
-                      e.jsx(G, {
-                        onClick: () => i("stake-coin"),
-                        children: t("hero.stakeButton"),
-                      }),
-                      e.jsx(Y, {
-                        onClick: () => o("https://www.chimpzee.io/buy"),
-                        children: t("hero.buyP2B"),
-                      }),
-                    ],
-                  }),
-                ],
-              }),
+
             ],
           }),
         }),
