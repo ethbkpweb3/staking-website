@@ -1672,7 +1672,7 @@ const _e = r.h1`
             e("stake.messages.minWithdrawError", { 0: t.minStakeAmount })
           );
         if (s.tokenStaked + z <= 0)
-          return u.error(e("stake.messages.noTokensToWithdraw"));
+          return u.error(e("No Token To Witdhdraw"));
         if (x > t.tokenStaked + z)
           return u.error(e("stake.messages.insufficientWithdraw"));
         u.success(e("stake.messages.checkWallet"), { icon: "🪙" }),
