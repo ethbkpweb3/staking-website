@@ -212,7 +212,7 @@ const xt = r.div`
     cursor: pointer;
     transform: scale(1.05);
     transition: all 0.2s ease-in-out;
-    box-shadow: -10px 10px 0px -4px rgba(0, 0, 0, 0.6);
+    box-shadow: -2px 2px 0px -3px rgba(0, 0, 0, 0.6);
   }
 `;
 r.button`
