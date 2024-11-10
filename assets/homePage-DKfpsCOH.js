@@ -170,7 +170,7 @@ const h = () => {
               e.jsxs(g, {
                 children: [
                   e.jsx(n, {
-                    to: "/coin",
+                    to: "/staking",
                     bg: "/images/selector/coin-bg.webp",
                     children: e.jsx(a, { children: i("Stake Token now") }),
                   }),

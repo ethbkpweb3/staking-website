@@ -43032,7 +43032,7 @@ const iL = q.nav`
     _.useState("");
     const [d, y] = _.useState(!1),
       m = () => {
-        u.pathname !== "/coin" && l("/coin"), mf.scrollToTop();
+        u.pathname !== "/staking" && l("/staking"), mf.scrollToTop();
       },
       v = () => {
         window.scrollY >= 100 ? f(!0) : f(!1);
@@ -43057,17 +43057,17 @@ const iL = q.nav`
           offset: -120,
         }),
       x = (S) => {
-        u.pathname !== "/coin" && l("/coin"),
+        u.pathname !== "/staking" && l("/staking"),
           setTimeout(() => {
             g(S);
-          }, [u.pathname === "/coin" ? 0 : 500]);
+          }, [u.pathname === "/staking" ? 0 : 500]);
       };
     return D.jsx(iL, {
       scrollNav: c,
       children: D.jsxs(sL, {
         children: [
           D.jsx(aL, {
-            to: "/coin",
+            to: "/staking",
             onClick: m,
             children: D.jsx(oL, {
               src: "/images/main/logo.webp",
@@ -43299,10 +43299,10 @@ const zL = q.a`
           offset: -120,
         }),
       y = (m) => {
-        i.pathname !== "/coin" && s("/coin"),
+        i.pathname !== "/staking" && s("/staking"),
           setTimeout(() => {
             d(m);
-          }, [i.pathname === "/coin" ? 0 : 500]);
+          }, [i.pathname === "/staking" ? 0 : 500]);
       };
     return D.jsxs(NL, {
       isOpen: a,
@@ -44282,7 +44282,7 @@ const bF = q.a`
               D.jsx(_t, {
                 element: D.jsx(JL, {}),
                 children: D.jsxs(_t, {
-                  path: "coin",
+                  path: "staking",
                   children: [
                     D.jsx(_t, {
                       index: !0,
