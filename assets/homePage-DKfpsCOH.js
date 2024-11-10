@@ -162,7 +162,7 @@ const h = () => {
     return e.jsx(d, {
       children: e.jsxs(x, {
         children: [
-          e.jsx(p, { alt: "logo", src: "/images/main/logo.webp" }),
+          e.jsx(p, { alt: "logo", src: "/images/main/favicon-removebg-preview.png" }),
           e.jsx(l, { children: i("selector.welcome") }),
           e.jsxs(c, {
             children: [
