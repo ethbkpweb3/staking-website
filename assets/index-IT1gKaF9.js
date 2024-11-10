@@ -42936,7 +42936,7 @@ const iL = q.nav`
     abi: OL,
   },
   kL = {
-    chmpzBalance: 0,
+    KIDSBalance: 0,
     tokenStaked: 0,
     rewards: 0,
     totalRewards: 0,
@@ -42966,7 +42966,7 @@ const iL = q.nav`
     init: !1,
   },
   AL = {
-    chmpzBalance: 0,
+    KIDSBalance: 0,
     rewards: 0,
     totalRewards: 0,
     ownedDiamond: [],

@@ -35,7 +35,7 @@ const T = () => {
         onSuccess(a) {
           t((k) => ({
             ...k,
-            chmpzBalance: Number(
+            KIDSBalance: Number(
               x.utils.fromWei(a[0].result.toString(), "ether")
             ),
             tokenStaked: Number(
