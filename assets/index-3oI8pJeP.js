@@ -119,8 +119,8 @@ const xt = r.div`
   align-items: center;
   width: 100%;
   height: 50px;
-  border: 10px solid;
-  border-image: url("/images/coinStake/inputBorder.svg") 12 fill;
+ border: 1px solid rgb(53, 52, 56);
+  border-background: rgba(2, 1, 6, 0.64);
   margin-top: 25px;
 
   @media screen and (max-width: 768px) {
