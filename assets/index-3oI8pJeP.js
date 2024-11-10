@@ -1643,8 +1643,8 @@ const _e = r.h1`
       { isLoading: j } = R({
         hash: ee == null ? void 0 : ee.hash,
         onSuccess() {
-          u.success(e("stake.messages.claimSucess")),
-            y(e("stake.messages.claimSucess")),
+          u.success(e("claimSucess")),
+            y(e("claimSucess")),
             a(),
             o();
         },
