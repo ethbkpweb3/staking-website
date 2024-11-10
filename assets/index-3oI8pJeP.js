@@ -1758,7 +1758,7 @@ const _e = r.h1`
                       children: [
                         n.jsxs(Te, {
                           children: [
-                            n.jsx(ve, { children: e("stake.connectedWallet") }),
+                            n.jsx(ve, { children: e("Connected Wallet") }),
                             n.jsx(ye, { bold: !0, children: ot(i) }),
                           ],
                         }),
