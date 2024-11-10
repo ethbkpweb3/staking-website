@@ -180,13 +180,13 @@ const xt = r.div`
   }
 `,
   D = r.button`
-  padding: 4px 25px;
+  padding: 10px 25px;
   width: 100%;
   color: #fcefde;
   font-weight: bold;
   white-space: nowrap;
   transition: all 0.2s ease-in-out;
-  font-size: 16px;
+  font-size: 30px;
   background: transparent;
   border: 10px solid;
   border-image: url("/images/coinStake/button.png") 12 fill;
