@@ -1659,7 +1659,7 @@ const _e = r.h1`
           return u.error(
             e("stake.messages.minStakeError", { 0: t.minStakeAmount })
           );
-        if (x > s.chmpzBalance) return u.error(e("stake.messages.notEnough"));
+        if (x > s.KIDSBalance) return u.error(e("stake.messages.notEnough"));
         (await (await Xe()).data) > 0
           ? me(!0)
           : (u.success(e("Check Wallet"), { icon: "🪙" }),
@@ -1769,7 +1769,7 @@ const _e = r.h1`
                               bold: !0,
                               children: n.jsx(M, {
                                 from: 0,
-                                to: s.chmpzBalance,
+                                to: s.KIDSBalance,
                               }),
                             }),
                           ],
@@ -1857,13 +1857,13 @@ const _e = r.h1`
                                 type: "number",
                                 min: t.minStakeAmount,
                                 step: "1000",
-                                placeholder: "CHMPZ",
+                                placeholder: "KIDS",
                                 value: x,
                                 onChange: (v) => T(v.target.value),
                               }),
                               n.jsx(St, {
                                 disabled: B || W || C || j || A || F,
-                                onClick: () => T(Math.floor(s.chmpzBalance)),
+                                onClick: () => T(Math.floor(s.KIDSBalance)),
                                 children: "MAX",
                               }),
                             ],
