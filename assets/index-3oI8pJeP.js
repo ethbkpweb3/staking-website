@@ -1334,7 +1334,7 @@ const _e = r.h1`
                     onClick: () => {
                       f(i("Check Wallet")), T == null || T();
                     },
-                    children: i("Stake Continue"),
+                    children: i("Stake All Kids"),
                   }),
                 ],
               }),
