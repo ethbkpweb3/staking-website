@@ -319,24 +319,8 @@ const O = n.p`
       };
     return e.jsxs(R, {
       children: [
-        e.jsx(H, { index: "5", src: "/images/hero/bottom.svg" }),
-        e.jsx(L, {
-          children: e.jsx(P, { src: "/images/backgrounds/bg1.webp" }),
-        }),
-        e.jsx(F, {
-          children: e.jsxs(D, {
-            children: [
-              e.jsx($, {
-                children: e.jsx(q, {
-                  animate: { rotateY: 360 },
-                  transition: { repeat: 1 / 0, repeatDelay: 5, duration: 2 },
-                  src: "/images/hero/coin.webp",
-                }),
-              }),
+  
 
-            ],
-          }),
-        }),
       ],
     });
   },
