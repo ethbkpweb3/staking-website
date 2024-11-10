@@ -1886,7 +1886,7 @@ const _e = r.h1`
                                     id: "unstake-button",
                                     disabled: B || W || C || j,
                                     onClick: () => Je(),
-                                    children: e("stake.withdraw"),
+                                    children: e("Withdraw token"),
                                   }),
                                 ],
                               }),
@@ -1901,8 +1901,8 @@ const _e = r.h1`
                     children: [
                       n.jsxs(U, {
                         children: [
-                          n.jsx(V, { children: e("stake.claim") }),
-                          n.jsx(K, { children: e("stake.claimText") }),
+                          n.jsx(V, { children: e("Claim Token") }),
+                          n.jsx(K, { children: e("Claim Token") }),
                         ],
                       }),
                       n.jsxs(ae, {
@@ -1943,7 +1943,7 @@ const _e = r.h1`
                                   id: "claim-button",
                                   disabled: B || W || C || A || F || j,
                                   onClick: () => Qe(),
-                                  children: e("stake.claim"),
+                                  children: e("Claim Token"),
                                 }),
                               }),
                           k &&
