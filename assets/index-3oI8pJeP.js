@@ -1768,7 +1768,7 @@ const _e = r.h1`
                         }),
                         n.jsxs(Te, {
                           children: [
-                            n.jsx(ve, { children: e("stake.owned") }),
+                            n.jsx(ve, { children: e("Owned Kids") }),
                             n.jsx(ye, {
                               bold: !0,
                               children: n.jsx(M, {
@@ -1973,7 +1973,7 @@ const _e = r.h1`
                               Ct,
                               {
                                 children: [
-                                  n.jsx(Dt, { children: `${Ye(v[0])} CHMPZ` }),
+                                  n.jsx(Dt, { children: `${Ye(v[0])} Kids` }),
                                   n.jsx(ce, {
                                     date: v[1],
                                     intervalDelay: 0,
