@@ -310,20 +310,7 @@ const O = n.p`
     max-width: 150px;
   }
 `,
-  J = () => {
-    const { t } = u(),
-      i = (s) => S.scrollTo(s, { smooth: !0, duration: 500, offset: -120 }),
-      o = (s) => {
-        const d = window.open(s, "_blank", "noopener,noreferrer");
-        d && (d.opener = null);
-      };
-    return e.jsxs(R, {
-      children: [
-  
 
-      ],
-    });
-  },
   K = n.div`
   background: #055630;
 `;
