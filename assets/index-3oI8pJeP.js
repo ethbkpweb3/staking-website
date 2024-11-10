@@ -1327,14 +1327,14 @@ const _e = r.h1`
                         }),
                         g == null || g();
                     },
-                    children: i("stake.modal.createNew"),
+                    children: i("Create New"),
                   }),
                   n.jsx(D, {
                     disabled: x,
                     onClick: () => {
                       f(i("stake.messages.checkWallet")), T == null || T();
                     },
-                    children: i("stake.modal.continue"),
+                    children: i("Stake Continue"),
                   }),
                 ],
               }),
