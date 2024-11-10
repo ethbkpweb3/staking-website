@@ -1428,7 +1428,7 @@ const _e = r.h1`
                   onClick: () => {
                     b(c("stake.messages.checkWallet")), y == null || y();
                   },
-                  children: c("stake.modal.confirm"),
+                  children: c("Confirm"),
                 }),
               }),
           i && n.jsx(X, { style: { marginTop: "25px" }, children: i }),
