@@ -1909,7 +1909,7 @@ const _e = r.h1`
                             children: [
                               n.jsxs(vt, {
                                 children: [
-                                  e("stake.unclaimedText"),
+                                  e("Unclaim Token"),
                                   " ",
                                   n.jsx(M, {
                                     style: {
