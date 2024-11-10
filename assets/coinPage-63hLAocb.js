@@ -442,7 +442,7 @@ const M = n.div`
         children: [
           e.jsxs(m, {
             children: [
-              e.jsx(h, { children: t("stats.stat1-coin") }),
+              e.jsx(h, { children: t("Total Stake") }),
               e.jsx(p, {
                 children: e.jsx(l, {
                   from: 0,
@@ -454,7 +454,7 @@ const M = n.div`
           }),
           e.jsxs(m, {
             children: [
-              e.jsx(h, { children: t("stats.stat2") }),
+              e.jsx(h, { children: t("Total Kids Paid") }),
               e.jsx(p, {
                 children: e.jsx(l, {
                   from: 0,
@@ -466,7 +466,7 @@ const M = n.div`
           }),
           e.jsxs(m, {
             children: [
-              e.jsx(h, { children: t("stats.stat3") }),
+              e.jsx(h, { children: t("Total Kids Available") }),
               e.jsx(p, {
                 children: e.jsx(l, {
                   from: 0,
