@@ -1780,11 +1780,7 @@ const _e = r.h1`
                         }),
                       ],
                     }),
-                    n.jsx(zt, {
-                      bold: !0,
-                      onClick: () => Ue("stake-nft"),
-                      children: e("stake.nftSwitch"),
-                    }),
+              
                   ],
                 }),
               n.jsxs(ut, {
