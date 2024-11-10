@@ -1401,7 +1401,7 @@ const _e = r.h1`
         children: [
           n.jsx(_e, {
             children: c(
-              x ? "stake.modal.staking" : "Approve and Stake"
+              x ? "staking" : "Approve and Stake"
             ),
           }),
           n.jsx(Ie, {
@@ -1415,7 +1415,7 @@ const _e = r.h1`
                     "text",
                     n.jsx("span", {
                       style: { fontWeight: "bold", color: "#387636" },
-                      children: "value1",
+                      children: "Token Amount",
                     }),
                   ],
                 }),
