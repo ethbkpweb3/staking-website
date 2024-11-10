@@ -37,9 +37,9 @@ import "./motion-_fLkK2fy.js";
 const xt = r.div`
   background: linear-gradient(
       180deg,
-      rgba(3, 51, 29, 1) 10%,
-      rgba(3, 51, 29, 0.95) 50%,
-      rgba(3, 51, 29, 1) 90%
+      rgb(1, 1, 2) 10%,
+      rgb(1, 1, 2) 50%,
+      rgb(1, 1, 2) 90%
     ),
 
 `,
