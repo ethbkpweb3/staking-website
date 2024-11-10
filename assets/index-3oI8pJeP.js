@@ -101,7 +101,7 @@ const xt = r.div`
   width: 100%;
   max-width: clamp(300px, 80%, 600px);
   height: 100%;
-  border: 10px solid;
+  border: 20px solid;
   border-image: url("/images/nav/navButton.svg") 12 fill;
   padding: 20px;
   border-radius: 8px;
