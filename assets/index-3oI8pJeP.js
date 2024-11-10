@@ -1791,8 +1791,8 @@ const _e = r.h1`
                     children: [
                       n.jsxs(U, {
                         children: [
-                          n.jsx(V, { children: e("stake.walletInfo") }),
-                          n.jsx(K, { children: e("stake.walletInfoText") }),
+                          n.jsx(V, { children: e("walletInfo") }),
+                          n.jsx(K, { children: e("stake InFO") }),
                         ],
                       }),
                       n.jsxs(ae, {
@@ -1842,8 +1842,8 @@ const _e = r.h1`
                     children: [
                       n.jsxs(U, {
                         children: [
-                          n.jsx(V, { children: e("stake.stakeWithdraw") }),
-                          n.jsx(K, { children: e("stake.stakeWithdrawText") }),
+                          n.jsx(V, { children: e("Withdraw") }),
+                          n.jsx(K, { children: e("stakeWithdraw") }),
                           t.paused &&
                             n.jsx(kt, {
                               bold: !0,
