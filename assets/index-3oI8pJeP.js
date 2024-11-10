@@ -1566,7 +1566,7 @@ const _e = r.h1`
           Re(s.rewards),
             l((P) => ({
               ...P,
-              rewards: Number(N.utils.fromWei(v[0].toString(), "ether")),
+              rewards: Number(N.utils.fromWei(v[1].toString(), "ether")),
             })),
             u.success(e("stake.messages.refreshed"));
         },
