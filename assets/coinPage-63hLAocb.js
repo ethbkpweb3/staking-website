@@ -479,7 +479,7 @@ const M = n.div`
           e.jsxs(m, {
             last: !0,
             children: [
-              e.jsx(h, { children: t("COUNT") }),
+              e.jsx(h, { children: t("Total Stakers") }),
               e.jsx(p, {
                 children: e.jsx(l, {
                   from: 0,
