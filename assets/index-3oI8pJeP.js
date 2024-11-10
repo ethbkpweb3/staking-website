@@ -193,7 +193,7 @@ const xt = r.div`
   transition: all 0.2s ease-in-out;
 
   @media screen and (max-width: 1300px) {
-    font-size: 14px;
+    font-size: 24px;
   }
 
   @media screen and (max-width: 768px) {
