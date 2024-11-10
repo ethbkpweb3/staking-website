@@ -437,6 +437,7 @@ const M = n.div`
     const { t } = u(),
       { coinStakeInfo: i } = j();
     return e.jsx(K, {
+      style: { marginTop:"200px" },
       children: e.jsxs(M, {
         children: [
           e.jsxs(m, {
