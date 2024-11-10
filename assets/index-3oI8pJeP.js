@@ -1322,7 +1322,7 @@ const _e = r.h1`
                     disabled: x,
                     onClick: () => {
                       o(!1),
-                        u.success(i("stake.messages.checkWallet"), {
+                        u.success(i("Check Wallet"), {
                           icon: "🪙",
                         }),
                         g == null || g();
@@ -1332,7 +1332,7 @@ const _e = r.h1`
                   n.jsx(D, {
                     disabled: x,
                     onClick: () => {
-                      f(i("stake.messages.checkWallet")), T == null || T();
+                      f(i("Check Wallet")), T == null || T();
                     },
                     children: i("Stake Continue"),
                   }),
@@ -1426,7 +1426,7 @@ const _e = r.h1`
                 children: n.jsx(D, {
                   disabled: k,
                   onClick: () => {
-                    b(c("stake.messages.checkWallet")), y == null || y();
+                    b(c("Check Wallet")), y == null || y();
                   },
                   children: c("Confirm"),
                 }),
@@ -1662,7 +1662,7 @@ const _e = r.h1`
         if (x > s.chmpzBalance) return u.error(e("stake.messages.notEnough"));
         (await (await Xe()).data) > 0
           ? me(!0)
-          : (u.success(e("stake.messages.checkWallet"), { icon: "🪙" }),
+          : (u.success(e("Check Wallet"), { icon: "🪙" }),
             await ($ == null ? void 0 : $()));
       },
       Je = () => {
@@ -1675,14 +1675,14 @@ const _e = r.h1`
           return u.error(e("No Token To Witdhdraw"));
         if (x > t.tokenStaked + z)
           return u.error(e("stake.messages.insufficientWithdraw"));
-        u.success(e("stake.messages.checkWallet"), { icon: "🪙" }),
+        u.success(e("Check Wallet"), { icon: "🪙" }),
           Y == null || Y();
       },
       Qe = () => {
         if (s.rewards <= 0) return u.error(e("noRewards"));
         if (s.rewards > t.rewardTokenBalance)
           return u.error(e("No claim"));
-        u.success(e("stake.messages.checkWallet"), { icon: "🪙" }),
+        u.success(e("Check Wallet"), { icon: "🪙" }),
           te == null || te();
       };
     h.useEffect(() => {
