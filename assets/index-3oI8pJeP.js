@@ -114,14 +114,20 @@ const xt = r.div`
     max-width: clamp(300px, 100%, 600px);
   }
 `,
+
+
   gt = r.div`
   display: flex;
   align-items: center;
   width: 100%;
-  height: 50px;
- border: 20px solid rgb(53, 52, 56);
+  height: 60px;
+ border: 10px solid rgb(53, 52, 56);
   border-background: rgba(2, 1, 6, 0.64);
   margin-top: 25px;
+border-radius: 8px;
+
+
+
 
   @media screen and (max-width: 768px) {
     height: 50px;
