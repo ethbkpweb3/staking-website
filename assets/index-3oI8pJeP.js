@@ -1683,7 +1683,7 @@ const _e = r.h1`
           Y == null || Y();
       },
       Qe = () => {
-        if (s.rewards <= 0) return u.error(e("stake.messages.noRewards"));
+        if (s.rewards <= 0) return u.error(e("noRewards"));
         if (s.rewards > t.rewardTokenBalance)
           return u.error(e("No claim"));
         u.success(e("stake.messages.checkWallet"), { icon: "🪙" }),
