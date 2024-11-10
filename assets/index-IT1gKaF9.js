@@ -30355,7 +30355,9 @@ function M9(e, t) {
 }
 function jv(e) {
   let t = !0;
-  return Gc(e) ? e.length && (t = e.every((n) => an(n, !8453))) : (t = !8453), t;
+  return (
+    Gc(e) ? e.length && (t = e.every((n) => an(n, !8453))) : (t = !8453), t
+  );
 }
 function zI(e, t, n) {
   let r = null;
@@ -43079,66 +43081,26 @@ const iL = q.nav`
               D.jsx(Ed, {
                 children: D.jsx(cL, {
                   onClick: () => x("howCoin"),
-                  children: e("navbar.howItWorks"),
+                  children: e("howItWorks"),
                 }),
               }),
               D.jsx(Ed, {
                 children: D.jsx(N1, {
                   to: "/coin/how",
-                  children: e("navbar.howToStake"),
+                  children: e("howToStake"),
                 }),
               }),
               D.jsx(Ed, {
                 children: D.jsx(N1, {
                   to: "/coin/calculator",
-                  children: e("navbar.calculator"),
+                  children: e("calculator"),
                 }),
               }),
             ],
           }),
           D.jsxs(fL, {
             children: [
-              D.jsxs(pL, {
-                onClick: () => y(!d),
-                ref: n,
-                children: [
-                  D.jsxs(hL, {
-                    children: [
-                      Object.keys(gr).map((S) =>
-                        t.language === S
-                          ? D.jsx(
-                              j1,
-                              {
-                                src: gr[S].image,
-                              },
-                              S
-                            )
-                          : null
-                      ),
-                      D.jsx(mL, {
-                        src: "/images/flags/dropdown.svg",
-                      }),
-                    ],
-                  }),
-                  d &&
-                    D.jsx(yL, {
-                      children: Object.keys(gr).map((S) =>
-                        t.language !== S
-                          ? D.jsx(
-                              gL,
-                              {
-                                onClick: () => w(S),
-                                children: D.jsx(j1, {
-                                  src: gr[S].image,
-                                }),
-                              },
-                              S
-                            )
-                          : null
-                      ),
-                    }),
-                ],
-              }),
+       
               D.jsx(uL, {
                 onClick: () => o(!a),
                 children: D.jsx(BS, {}),
