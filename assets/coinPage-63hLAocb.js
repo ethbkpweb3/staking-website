@@ -319,8 +319,41 @@ const O = n.p`
       };
     return e.jsxs(R, {
       children: [
-  
-
+        e.jsx(H, { index: "5", src: "/images/hero/bottom.svg" }),
+        e.jsx(L, {
+          children: e.jsx(P, { src: "/images/backgrounds/bg1.webp" }),
+        }),
+        e.jsx(F, {
+          children: e.jsxs(D, {
+            children: [
+              e.jsx($, {
+                children: e.jsx(q, {
+                  animate: { rotateY: 360 },
+                  transition: { repeat: 1 / 0, repeatDelay: 5, duration: 2 },
+                  src: "/images/hero/coin.webp",
+                }),
+              }),
+              e.jsxs(U, {
+                children: [
+                  e.jsx(A, { children: t("hero.header2") }),
+                  e.jsx(O, { children: t("hero.desc") }),
+                  e.jsxs(V, {
+                    children: [
+                      e.jsx(G, {
+                        onClick: () => i("stake-coin"),
+                        children: t("hero.stakeButton"),
+                      }),
+                      e.jsx(Y, {
+                        onClick: () => o("https://www.chimpzee.io/buy"),
+                        children: t("hero.buyP2B"),
+                      }),
+                    ],
+                  }),
+                ],
+              }),
+            ],
+          }),
+        }),
       ],
     });
   },
@@ -487,7 +520,7 @@ const M = n.div`
         animate: { opacity: 1 },
         exit: { opacity: 0 },
         children: [
-         
+          e.jsx(J, {}),
           e.jsx(Q, {}),
           e.jsx(c.Suspense, {
             fallback: e.jsx(b, {}),
