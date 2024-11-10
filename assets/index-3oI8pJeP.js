@@ -1401,7 +1401,7 @@ const _e = r.h1`
         children: [
           n.jsx(_e, {
             children: c(
-              x ? "stake.modal.staking" : "stake.modal.approveSuccess"
+              x ? "stake.modal.staking" : "Approve and Stake"
             ),
           }),
           n.jsx(Ie, {
@@ -1743,7 +1743,7 @@ const _e = r.h1`
             n.jsx(we, {
               children: n.jsx(ke, {
                 onClick: () => d(),
-                children: e("navbar.connectText"),
+                children: e("Connect Wallet"),
               }),
             }),
           n.jsx(lt, { index: "5", src: "/images/coinStake/top.svg" }),
