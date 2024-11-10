@@ -101,10 +101,9 @@ const xt = r.div`
   width: 100%;
   max-width: clamp(300px, 80%, 600px);
   height: 100%;
-  border: 20px solid;
+  border: 10px solid;
   border-image: url("/images/nav/navButton.svg") 12 fill;
   padding: 20px;
-  border-radius: 8px;
   justify-content: space-evenly;
   box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px,
     rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px,
@@ -120,7 +119,7 @@ const xt = r.div`
   align-items: center;
   width: 100%;
   height: 50px;
- border: 1px solid rgb(53, 52, 56);
+ border: 20px solid rgb(53, 52, 56);
   border-background: rgba(2, 1, 6, 0.64);
   margin-top: 25px;
 
