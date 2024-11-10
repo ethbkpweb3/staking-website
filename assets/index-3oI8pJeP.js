@@ -189,7 +189,7 @@ const xt = r.div`
   font-size: 16px;
   background: transparent;
   border: 10px solid;
-  border-image: url("/images/coinStake/brownButton.svg") 12 fill;
+  border-image: url("/images/coinStake/button.png") 12 fill;
   transition: all 0.2s ease-in-out;
 
   @media screen and (max-width: 1300px) {
