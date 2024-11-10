@@ -86,16 +86,7 @@ const xt = r.div`
   width: 100%;
   height: auto;
   border: 10px solid;
-    padding: 4px 25px;
-  color: #81451e;
-  font-weight: bold;
-  white-space: nowrap;
-  transition: all 0.2s ease-in-out;
-  font-size: 16px;
-  background: transparent;
-  border: 10px solid #4d5761;
-padding: 20px;
-    background: #26272b3d;
+  border-image: url("/images/nav/navButton.svg") 12 fill;
   padding: 20px;
   justify-content: space-evenly;
   box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px,
@@ -111,16 +102,7 @@ padding: 20px;
   max-width: clamp(300px, 80%, 600px);
   height: 100%;
   border: 10px solid;
-   padding: 4px 25px;
-  color: #81451e;
-  font-weight: bold;
-  white-space: nowrap;
-  transition: all 0.2s ease-in-out;
-  font-size: 16px;
-  background: transparent;
-  border: 10px solid #4d5761;
-padding: 20px;
-    background: #26272b3d;
+  border-image: url("/images/nav/navButton.svg") 12 fill;
   padding: 20px;
   justify-content: space-evenly;
   box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px,
@@ -439,9 +421,9 @@ const yt = r.button`
   transition: all 0.2s ease-in-out;
   font-size: 16px;
   background: transparent;
-  border: 10px solid #4d5761;
-padding: 20px;
-    background: #26272b3d;
+  border: 10px solid;
+  border-image: url("/images/nav/navButton.svg") 12 fill;
+
   @media screen and (max-width: 1300px) {
     font-size: 14px;
   }
@@ -463,16 +445,7 @@ padding: 20px;
     transform: scale(1.05);
     transition: all 0.2s ease-in-out;
     box-shadow: -10px 10px 0px -4px rgba(0, 0, 0, 0.6);
-  padding: 4px 25px;
-  color: #81451e;
-  font-weight: bold;
-  white-space: nowrap;
-  transition: all 0.2s ease-in-out;
-  font-size: 16px;
-  background: transparent;
-  border: 10px solid #4d5761;
-padding: 20px;
-    background: #26272b3d;
+    border-image: url("/images/nav/navButton.svg") 12 fill;
     color: #81451e;
   }
 `,
