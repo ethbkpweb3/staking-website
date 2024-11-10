@@ -317,9 +317,7 @@ const O = n.p`
         const d = window.open(s, "_blank", "noopener,noreferrer");
         d && (d.opener = null);
       };
-    return e.jsxs(R, {
 
-    });
   },
   K = n.div`
   background: #055630;
